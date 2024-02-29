@@ -48,7 +48,7 @@ The value of `aFriend` is changed to `"Simangaliso"` again, and it's printed.
 
 ```csharp
 aFriend = "Simangaliso";
-Console.WriteLine(aFriend); // As mentioned in lines 7 and 8
+Console.WriteLine(aFriend); // As mentioned in the above comment/s
 ```
 
 ---
