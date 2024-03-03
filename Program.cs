@@ -1,4 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
+using System.Text;
 
 // Building this C# Console Application Step-by-Step:
 
@@ -76,3 +77,28 @@ Console.WriteLine("The first letter of my name is: " + firstLetterOfMyName);
 Console.WriteLine("The second letter of my name is: " + secondLetterOfMyName);
 
 Console.WriteLine("The eighth letter in my name is: " + eigthLetterOfMyName);
+
+string hello = "Hello";
+string world = "SDET";
+string result = string.Concat(hello, ", ", world, "!");
+Console.WriteLine(result);
+
+string firstName = "Sifiso";
+string lastName = "Shezi";
+
+string fullName = firstName + " " + lastName;
+Console.WriteLine(fullName);  // Output: "Sifiso Shezi"
+
+string userName = "Sifiso";
+string dateString = DateTime.Today.ToShortDateString();
+string message = $"Hello {userName}. Today is {dateString}.";
+Console.WriteLine(message);
+
+StringBuilder sb = new StringBuilder();
+sb.Append("I");
+sb.Append(" ");
+sb.Append("am");
+sb.Append("!");
+string finalMessage = sb.ToString();
+
+Console.WriteLine(finalMessage);
